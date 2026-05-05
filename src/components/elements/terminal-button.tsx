@@ -11,7 +11,7 @@ export function TerminalButton({ children, onClick, active }: TerminalButtonProp
         <button
             onClick={onClick}
             className={cn(
-                "px-1 text-left transition-colors focus:outline-none",
+                "px-1 text-left transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring",
                 active
                     ? "bg-primary text-primary-foreground"
                     : "bg-transparent text-foreground hover:bg-primary hover:text-primary-foreground"

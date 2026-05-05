@@ -23,7 +23,7 @@ const LINKS = [
 
 export function Contact() {
     return (
-        <section id={PORTFOLIO_SECTIONS.contact} className="flex flex-col gap-6">
+        <section id={PORTFOLIO_SECTIONS.contact} className="flex flex-col gap-6 scroll-mt-20">
             <h2 className="text-2xl">Contact</h2>
             <p className="text-muted-foreground">Get in touch.</p>
             <div className="flex flex-col gap-3 font-mono text-sm">
@@ -35,7 +35,7 @@ export function Contact() {
                         rel="noopener noreferrer"
                         className="flex items-center gap-3 text-muted-foreground transition-colors hover:text-foreground w-fit"
                     >
-                        <Icon size={14} />
+                        <span aria-hidden="true"><Icon size={14} /></span>
                         {label}
                     </a>
                 ))}
