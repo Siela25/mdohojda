@@ -6,7 +6,7 @@ import { Skills } from "@/components/sections/skills";
 
 export default function Home() {
   return (
-    <main id="main-content" className="container mx-auto">
+    <main id="main-content" className="container mx-auto flex flex-col gap-24 px-8 py-16">
       <AboutMe/>
       <Skills/>
       <Employment/>

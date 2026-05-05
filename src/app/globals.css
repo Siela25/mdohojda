@@ -126,5 +126,11 @@
   }
   html {
     @apply font-mono;
+    scroll-behavior: smooth;
   }
+}
+
+.dark {
+  --border: oklch(1 0 0 / 18%);
+  --input: oklch(1 0 0 / 18%);
 }

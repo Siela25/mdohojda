@@ -39,7 +39,7 @@ export function EmploymentTable({ data }: EmploymentTableProps) {
                         ))}
                     </div>
 
-                    <div className="px-4 py-3 text-muted-foreground">
+                    <div className="min-h-24 px-4 py-3 text-muted-foreground">
                         {data.duties[selectedDuty]?.description}
                     </div>
                 </div>

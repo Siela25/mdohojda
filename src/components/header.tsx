@@ -4,33 +4,31 @@ import { PORTFOLIO_SECTIONS } from "@/lib/site-map";
 
 export function Header() {
     return (
-        <header className="flex space-x-1 px-2 my-2.5">
-            <div>
-                <span className="text-emerald-300">
-                    mdohojda@portfolio:
-                </span>
-            </div>
-            <div className="flex space-x-2">
+        <header className="sticky top-0 z-50 flex items-center gap-2 border-b border-border bg-background/90 px-8 py-3 backdrop-blur-sm">
+            <span className="text-emerald-400 shrink-0">
+                mdohojda@portfolio:~$
+            </span>
+            <nav className="flex items-center gap-1">
                 <Link href={PORTFOLIO_SECTIONS.about}>
-                    <TerminalButton>About me</TerminalButton>
+                    <TerminalButton>about</TerminalButton>
                 </Link>
-                <span> / </span>
+                <span className="text-muted-foreground">/</span>
                 <Link href={PORTFOLIO_SECTIONS.skills}>
-                    <TerminalButton>Skills</TerminalButton>
+                    <TerminalButton>skills</TerminalButton>
                 </Link>
-                <span> / </span>
+                <span className="text-muted-foreground">/</span>
                 <Link href={PORTFOLIO_SECTIONS.projects}>
-                    <TerminalButton>Projects</TerminalButton>
+                    <TerminalButton>projects</TerminalButton>
                 </Link>
-                <span> / </span>
+                <span className="text-muted-foreground">/</span>
                 <Link href={PORTFOLIO_SECTIONS.contact}>
-                    <TerminalButton>Contact</TerminalButton>
+                    <TerminalButton>contact</TerminalButton>
                 </Link>
-                <span> / </span>
+                <span className="text-muted-foreground">/</span>
                 <Link href="/resume">
-                    <TerminalButton>Resume</TerminalButton>
+                    <TerminalButton>resume</TerminalButton>
                 </Link>
-            </div>
+            </nav>
         </header>
     )
 
