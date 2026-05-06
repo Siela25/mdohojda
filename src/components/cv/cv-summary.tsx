@@ -1,11 +1,10 @@
-import { PORTFOLIO_SECTIONS } from "@/lib/site-map";
+import { CvSectionHeading } from "./cv-section-heading";
 
-
-export function AboutMe() {
+export function CvSummary() {
     return (
-        <section id={PORTFOLIO_SECTIONS.about} className="space-y-4 scroll-mt-20">
-            <h1 className="text-5xl">Hey, I'm Mateusz</h1>
-            <p className="text-lg leading-relaxed">
+        <section className="mb-6">
+            <CvSectionHeading>Summary</CvSectionHeading>
+            <p className="text-sm leading-relaxed text-gray-700">
                 Full Stack Developer with 7+ years of commercial experience in TypeScript/Node.js, with hands-on Rust and Go in personal projects.
                 I've been responsible for designing and implementing full production systems from the ground up — database schema, backend API, deployment. 
                 On top of that, I built internal tools that automated repetitive workflows around document processing and graphic assets. 

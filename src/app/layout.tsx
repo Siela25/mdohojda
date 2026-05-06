@@ -37,6 +37,7 @@ export default function RootLayout({
       lang="en"
       style={{ colorScheme: "dark" }}
       className={cn("h-full", "antialiased", geistSans.variable, geistMono.variable, "font-mono", jetbrainsMono.variable, "dark")}
+      data-scroll-behavior="smooth"
     >
       <body className="min-h-full flex flex-col">
         <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:px-4 focus:py-2 focus:bg-background focus:text-foreground">

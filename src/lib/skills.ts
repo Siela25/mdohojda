@@ -14,8 +14,8 @@ const COMMERCIAL_SKILLS: SkillColumn = {
     groups: [
         { category: 'languages', label: 'Languages', skills: ['TypeScript', 'Node.js'] },
         { category: 'frameworks', label: 'Frameworks', skills: ['React', 'Next.js', 'Express.js', 'NestJS'] },
-        { category: 'databases', label: 'Databases', skills: ['PostgreSQL', 'Redis'] },
-        { category: 'tools', label: 'Tools', skills: ['Docker'] },
+        { category: 'databases', label: 'Databases', skills: ['PostgreSQL', 'Redis', 'Prisma'] },
+        { category: 'tools', label: 'Tools', skills: ['Docker', 'Git', 'AWS S3', 'Sentry', 'Stripe'] },
     ]
 }
 
@@ -23,9 +23,9 @@ const PERSONAL_SKILLS: SkillColumn = {
     label: 'Personal Projects',
     groups: [
         { category: 'languages', label: 'Languages', skills: ['Go', 'Rust', 'C#'] },
-        { category: 'frameworks', label: 'Frameworks', skills: ['React', 'Vue.js'] },
-        { category: 'databases', label: 'Databases', skills: ['MongoDB'] },
-        { category: 'tools', label: 'Tools', skills: ['Git', 'VS Code'] },
+        { category: 'frameworks', label: 'Frameworks', skills: ['React', 'Tauri'] },
+        { category: 'databases', label: 'Databases', skills: ['MongoDB', 'Drizzle ORM'] },
+        { category: 'tools', label: 'Tools', skills: ['Git'] },
     ]
 }
 
@@ -33,7 +33,7 @@ const LEARNING_SKILLS: SkillColumn = {
     label: 'Learning',
     groups: [
         { category: "infra", label: "Infra", skills: ["Terraform", "Kubernetes"] },
-        { category: "observability", label: "Observability", skills: ["OpenTelemetry", "Grafana"] },
+        { category: "observability", label: "Observability", skills: ["Prometheus", "Grafana"] },
     ]
 
 

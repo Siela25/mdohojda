@@ -9,19 +9,23 @@ export function Header() {
                 mdohojda@portfolio:~$
             </span>
             <nav className="flex items-center gap-1">
-                <Link href={PORTFOLIO_SECTIONS.about}>
-                    <TerminalButton>about</TerminalButton>
+                <Link href={`/#${PORTFOLIO_SECTIONS.about}`}>
+                    <TerminalButton>about me</TerminalButton>
                 </Link>
                 <span className="text-muted-foreground">/</span>
-                <Link href={PORTFOLIO_SECTIONS.skills}>
+                <Link href={`/#${PORTFOLIO_SECTIONS.skills}`}>
                     <TerminalButton>skills</TerminalButton>
                 </Link>
                 <span className="text-muted-foreground">/</span>
-                <Link href={PORTFOLIO_SECTIONS.projects}>
+                <Link href={`/#${PORTFOLIO_SECTIONS.employment}`}>
+                    <TerminalButton>employment</TerminalButton>
+                </Link>
+                <span className="text-muted-foreground">/</span>
+                <Link href={`/#${PORTFOLIO_SECTIONS.projects}`}>
                     <TerminalButton>projects</TerminalButton>
                 </Link>
                 <span className="text-muted-foreground">/</span>
-                <Link href={PORTFOLIO_SECTIONS.contact}>
+                <Link href={`/#${PORTFOLIO_SECTIONS.contact}`}>
                     <TerminalButton>contact</TerminalButton>
                 </Link>
                 <span className="text-muted-foreground">/</span>

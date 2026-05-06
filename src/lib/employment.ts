@@ -29,7 +29,7 @@ export const HAVE_A_BOOK_EMPLOYMENT: EmploymentData = {
         },
         {
             title: "Infrastructure administration",
-            description: "Managed the company's DigitalOcean cloud infrastructure and Microsoft 365 services, including email, domain configuration, and user management."
+            description: "Managed the company's cloud infrastructure and Microsoft 365 services, including email, domain configuration, and user management."
         },
         {
             title: "Document automation tooling",
