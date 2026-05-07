@@ -16,7 +16,6 @@ export function CvDocument() {
             <CvProjects />
             <CvSkills />
             <CvLanguages />
-            <CvEducation />
             <CvConsent />
         </div>
     );

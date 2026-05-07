@@ -30,8 +30,9 @@ const PERSONAL_SKILLS: SkillColumn = {
 }
 
 const LEARNING_SKILLS: SkillColumn = {
-    label: 'Learning',
+    label: 'Familiar with',
     groups: [
+        { category: "languages", label: "Languages", skills: ["Python"] },
         { category: "infra", label: "Infra", skills: ["Terraform", "Kubernetes"] },
         { category: "observability", label: "Observability", skills: ["Prometheus", "Grafana"] },
     ]

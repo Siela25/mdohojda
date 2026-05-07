@@ -3,11 +3,11 @@ import { CvSectionHeading } from "./cv-section-heading";
 
 export function CvProjects() {
     return (
-        <section className="mb-6">
+        <section className="mb-6 print:break-before-page">
             <CvSectionHeading>Projects</CvSectionHeading>
             <div className="flex flex-col gap-3">
                 {PROJECTS.map((project) => (
-                    <div key={project.name}>
+                    <div key={project.name} className="">
                         <div className="flex items-baseline justify-between">
                             <span className="font-semibold text-gray-900">{project.name}</span>
                             <span className="text-xs text-gray-500">{project.stack.join(", ")}</span>
