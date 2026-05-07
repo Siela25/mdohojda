@@ -4,7 +4,7 @@ import { PORTFOLIO_SECTIONS } from "@/lib/site-map";
 
 export function Header() {
     return (
-        <header className="sticky top-0 z-50 flex items-center gap-2 border-b border-border bg-background/90 px-8 py-3 backdrop-blur-sm">
+        <header className="sticky top-0 z-50 flex items-center gap-2 border-b border-border bg-background/90 px-8 py-3 backdrop-blur-sm print:hidden">
             <span className="text-emerald-400 shrink-0">
                 mdohojda@portfolio:~$
             </span>
