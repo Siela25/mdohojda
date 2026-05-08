@@ -20,7 +20,7 @@ export const PROJECTS: ProjectData[] = [
         status: "Active development",
         description: "Web application for creating and editing EPUB files, targeting publishing workflows. Client-side PDF processing via pdfium-render compiled to WebAssembly — no server required, everything runs in the browser.",
         stack: ["Rust", "WASM", "Next.js", "TypeScript"],
-        repoUrl: "https://github.com/siela25/v-dok"
+        repoUrl: "https://github.com/Siela25/v-dok"
     },
     {
         name: "envik",

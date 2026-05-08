@@ -33,7 +33,7 @@ export const HAVE_A_BOOK_EMPLOYMENT: EmploymentData = {
         },
         {
             title: "Asynchronous processing pipeline",
-            description: "Implemented job queue system using BullMQ backed by Redis for processing EPUB files — including batched Anthropic API calls for AI-generated content. Managed file lifecycle through AWS S3 (original and processed files), ensuring reliable delivery across async stages."
+            description: "Implemented job queue system using BullMQ backed by Redis for batch processing of EPUB files. Managed file lifecycle through AWS S3, ensuring reliable delivery across async stages."
         },
         {
             title: "Payment integration",

@@ -2,7 +2,7 @@ import { CvSectionHeading } from "./cv-section-heading";
 
 const LANGUAGES = [
     { name: "Polish", level: "native" },
-    { name: "English", level: "professional working proficiency" },
+    { name: "English", level: "B2" },
 ];
 
 export function CvLanguages() {
