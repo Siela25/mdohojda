@@ -20,6 +20,10 @@ export const HAVE_A_BOOK_EMPLOYMENT: EmploymentData = {
     description: "Responsible for the full technical stack — from designing and building internal business systems, to managing cloud infrastructure and creating automation tooling for document processing.",
     duties: [
         {
+            title: "REST API design",
+            description: "Designed and maintained RESTful APIs powering both internal tools and client-facing applications, including authentication, role-based access, data validation, and error handling patterns."
+        },
+        {
             title: "Internal management system",
             description: "Designed and built a full-stack internal system (NestJS + PostgreSQL + React) for managing projects, clients, and time tracking — used daily by the entire company"
         },
@@ -43,9 +47,5 @@ export const HAVE_A_BOOK_EMPLOYMENT: EmploymentData = {
             title: "Infrastructure & monitoring",
             description: "Managed the company's cloud infrastructure and Microsoft 365 services, including email, domain configuration, and user management. Set up application monitoring and error tracking via Sentry.io."
         },
-        {
-            title: "Document automation tooling",
-            description: "Built internal tools to automate repetitive workflows involving graphic files and electronic documents, reducing manual processing time significantly."
-        }
     ]
 };
