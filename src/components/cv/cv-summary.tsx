@@ -6,7 +6,8 @@ export function CvSummary() {
             <CvSectionHeading>Summary</CvSectionHeading>
             <p className="text-sm leading-relaxed text-gray-700">
                 Software Engineer with 7 years of commercial experience building
-                backend systems in TypeScript/Node.js (NestJS). I've been responsible
+                backend systems in TypeScript/Node.js (NestJS) with hands-on C#/.NET,
+                Go and Rust in personal projects. I've been responsible
                 for designing and implementing full production systems from the ground
                 up — REST APIs, database schemas, async processing pipelines, and
                 deployment. Comfortable working across the stack when needed — I build
